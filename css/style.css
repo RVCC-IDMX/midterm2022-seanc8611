@@ -1,0 +1,55 @@
+body {
+    font-family:"Sigmar One";
+    background-color:#FF5338;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Yeseva One";
+    font-size:40pt;
+}
+
+h2 {
+    margin: 0.1em;
+}
+
+header {
+    text-align:center;
+    border: 4px solid #FFE660;
+}
+
+footer {
+    text-align:center;
+}
+
+#hero {
+    color: white;
+    border: 4px solid #FFE660;
+    background-color: #FF5338;
+    text-align:center;
+    padding:10px;
+}
+
+#hero img{
+    width:300px
+}
+
+/* Websites Section */
+
+#websites {
+    border: 4px solid #FFE660;
+    text-align:center;
+}
+
+/* Reviews */
+
+section#reviews {
+    border: 4px solid #FFE660;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#reviews ul li:nth-child(even){
+    color: #000;
+}
